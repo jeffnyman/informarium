@@ -1,0 +1,17 @@
+{
+  "name": "informarium",
+  "version": "0.1.0",
+  "description": "Language and tooling support for the Inform ecosystem.",
+  "author": "Jeff Nyman <jeffnyman@gmail.com> (https://testerstories.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/jeffnyman/informarium",
+  "bugs": "https://github.com/jeffnyman/informarium/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffnyman/informarium.git"
+  },
+  "keywords": [
+    "vscode",
+    "extension"
+  ]  
+}

@@ -33,6 +33,9 @@
       "patterns": [
         {
           "include": "#comment"
+        },
+        {
+          "include": "#text"
         }
       ]
     },
@@ -54,6 +57,11 @@
           "include": "#nestedComment"
         }
       ]
+    },
+    "text": {
+      "name": "string.quoted.double.inform7",
+      "begin": "\"",
+      "end": "\""
     }
   }
 }

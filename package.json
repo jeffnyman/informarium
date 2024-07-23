@@ -66,6 +66,13 @@
         },
         "configuration": "./i6-language-configuration.json"
       }
+    ],
+    "grammars": [
+      {
+        "language": "inform7",
+        "scopeName": "source.inform7",
+        "path": "./syntaxes/inform7.tmLanguage.json"
+      }
     ]
   }
 }

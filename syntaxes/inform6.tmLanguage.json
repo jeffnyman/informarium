@@ -5,12 +5,20 @@
   "patterns": [
     {
       "include": "#comment"
+    },
+    {
+      "include": "#string"
     }
   ],
   "repository": {
     "comment": {
       "name": "comment.line.inform6",
       "match": "!.*$"
+    },
+    "string": {
+      "name": "string.quoted.double.inform6",
+      "begin": "\"",
+      "end": "\""
     }
   }
 }

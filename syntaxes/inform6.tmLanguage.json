@@ -2,6 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "source.inform6",
   "name": "Inform 6",
-  "patterns": [],
-  "repository": {}
+  "patterns": [
+    {
+      "include": "#comment"
+    }
+  ],
+  "repository": {
+    "comment": {
+      "name": "comment.line.inform6",
+      "match": "!.*$"
+    }
+  }
 }

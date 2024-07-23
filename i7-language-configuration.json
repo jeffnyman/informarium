@@ -91,5 +91,11 @@
   "indentationRules": {
     "increaseIndentPattern": "^.*:$",
     "decreaseIndentPattern": "^\\s*[].*$"
-  }
+  },
+  "onEnterRules": [
+    {
+      "beforeText": "^\\s*$",
+      "action": { "indent": "outdent" }
+    }
+  ]
 }

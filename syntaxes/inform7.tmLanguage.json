@@ -39,7 +39,21 @@
     "comment": {
       "name": "comment.block.inform7",
       "begin": "\\[",
-      "end": "\\]"
+      "end": "\\]",
+      "patterns": [
+        {
+          "include": "#nestedComment"
+        }
+      ]
+    },
+    "nestedComment": {
+      "begin": "\\[",
+      "end": "\\]",
+      "patterns": [
+        {
+          "include": "#nestedComment"
+        }
+      ]
     }
   }
 }

@@ -25,7 +25,8 @@
     "language",
     "highlight",
     "syntax",
-    "inform7"
+    "inform7",
+    "inform6"
   ],
   "contributes": {
     "languages": [
@@ -45,6 +46,24 @@
           "dark": "./icons/i7-dark.png"
         },
         "configuration": "./i7-language-configuration.json"
+      },
+      {
+        "id": "inform6",
+        "aliases": [
+          "Inform 6",
+          "inform6",
+          "i6"
+        ],
+        "extensions": [
+          ".inf",
+          ".h",
+          ".i6",
+          ".i6h"
+        ],
+        "icon": {
+          "light": "./icons/i6-light.png",
+          "dark": "./icons/i6-dark.png"
+        }
       }
     ]
   }

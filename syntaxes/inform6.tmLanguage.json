@@ -165,6 +165,16 @@
         {
           "name": "constant.numeric.integer.negative.inform6",
           "match": "(\\b|-)\\d+\\b"
+        },
+        {
+          "name": "constant.numeric.float.inform6",
+          
+          "match": "\\$[\\+-]\\d+(\\.\\d+)?(e[\\+-]?\\d+)?\\b"
+        },
+        {
+          "comment": "The NULL does show up in the library but it's not documented anywhere officially that I can see.",
+          "name": "constant.language.inform6",
+          "match": "\\b(false|nothing|NULL|true)\\b"
         }
       ]
     }

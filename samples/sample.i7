@@ -1,0 +1,30 @@
+"An Informarium Sample of Inform 7" by Jeff Nyman.
+
+Volume - Heading Level 1
+
+Book - Heading Level 2
+
+Part - Headnig Level 3
+
+Chapter - Heading Level 4
+
+Section - Heading Level 5
+
+[ A simple Inform 7 comment. ]
+
+[ An Inform 7 comment that is purposely expanded
+across several lines to make sure that the tokens
+are recognized correctly. ]
+
+Chapter - Nested Comments
+
+[ This is a comment [that has a nested comment]. ]
+
+[ This is a comment
+that has some [nested [comments]] and
+that stretches across multiple lines
+but should be parsed as a single comment. ]
+
+When play begins:
+  say "A simple bit of text."
+  say "Some text that has a [text substitution]."

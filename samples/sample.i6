@@ -1,0 +1,12 @@
+! An Informarium Sample of Inform 6
+
+[ Main;
+  Display();
+];
+
+[ Display answer;
+  answer = 42;
+
+  print "Testing Inform 6^^";
+  print "~Let's tell a story together!~, the author says.^";
+];

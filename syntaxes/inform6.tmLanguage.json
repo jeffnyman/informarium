@@ -17,6 +17,9 @@
     },
     {
       "include": "#operator"
+    },
+    {
+      "include": "#constant"
     }
   ],
   "repository": {
@@ -87,6 +90,9 @@
         },
         {
           "include": "#operator"
+        },
+        {
+          "include": "#constant"
         }
       ]
     },
@@ -142,6 +148,23 @@
         {
           "name": "keyword.operator.bitwise.inform6",
           "match": "&|\\||~"
+        }
+      ]
+    },
+    "constant": {
+      "comment": "Literal quantities written down in the source code are called constants.",
+      "patterns": [
+        {
+          "name": "constant.numeric.integer.binary.inform6",
+          "match": "\\$\\$[01]+\\b"
+        },
+        {
+          "name": "constant.numeric.integer.hexadecimal.inform6",
+          "match": "\\$[0-9a-fA-F]+\\b" 
+        },
+        {
+          "name": "constant.numeric.integer.negative.inform6",
+          "match": "(\\b|-)\\d+\\b"
         }
       ]
     }

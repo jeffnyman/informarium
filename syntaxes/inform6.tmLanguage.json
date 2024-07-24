@@ -239,8 +239,7 @@
         },
         {
           "name": "constant.numeric.float.inform6",
-          
-          "match": "\\$[\\+-]\\d+(\\.\\d+)?(e[\\+-]?\\d+)?\\b"
+          "match": "\\$[\\+-]\\d+(\\.\\d+)?(e[\\+-]\\d+)?\\b"
         },
         {
           "comment": "The NULL does show up in the library but it's not documented anywhere officially that I can see.",

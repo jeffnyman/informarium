@@ -134,6 +134,14 @@
         {
           "name": "keyword.operator.separator.inform6",
           "match": ","
+        },
+        {
+          "name": "keyword.operator.logical.inform6",
+          "match": "&&|\\|\\||~~"
+        },
+        {
+          "name": "keyword.operator.bitwise.inform6",
+          "match": "&|\\||~"
         }
       ]
     }

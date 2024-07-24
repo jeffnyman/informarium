@@ -11,6 +11,9 @@
     },
     {
       "include": "#routine"
+    },
+    {
+      "include": "#keyword"
     }
   ],
   "repository": {
@@ -75,6 +78,25 @@
         },
         {
           "include": "#string"
+        }
+      ]
+    },
+    "keyword": {
+      "patterns": [
+        {
+          "name": "keyword.control.inform6",
+          "match": "\\b(box|break|continue|default|do|else|font\\s+(on|off)|for|give|if|inversion|jump|new_line|objectloop|print|print_ret|quit|read|remove|restore|return|rfalse|rtrue|save|spaces|string|style\\s+(roman|bold|underline|reverse|fixed)|switch|until|while)\\b"
+        },
+        {
+          "match": "\\b(move)\\s+([a-zA-Z_]\\w*)\\s+(to)\\b",
+          "captures": {
+            "1": {
+              "name": "keyword.control.inform6"
+            },
+            "3": {
+              "name": "keyword.control.inform6"
+            }
+          }
         }
       ]
     }

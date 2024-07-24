@@ -9,4 +9,12 @@
 
   print "Testing Inform 6^^";
   print "~Let's tell a story together!~, the author says.^";
+  print "Today's number is ", 16136, ".^";
+  print "Today's number is ", $$11111100001000, ".^";
+  print "Today's number is ", $3f08, ".^";
+  print "Today's letter is ", 'x', ".^";
+  print "True means ", true, ".^";
+  print "False means ", false, ".^";
+
+  print "The answer is ", answer, ".^";
 ];

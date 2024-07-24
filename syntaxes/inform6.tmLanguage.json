@@ -18,7 +18,17 @@
     "string": {
       "name": "string.quoted.double.inform6",
       "begin": "\"",
-      "end": "\""
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.double.quote.begin.inform6"
+        }
+      },
+      "end": "\"",
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.double.quote.end.inform6"
+        }
+      }
     }
   }
 }

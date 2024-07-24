@@ -1,3 +1,7 @@
+!% -Cu
+!% -D
+!% +include_path=../../inform6lib-6.12.4
+
 ! An Informarium Sample of Inform 6
 
 [ Main;

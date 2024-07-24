@@ -50,7 +50,7 @@
       "end": "\\]",
       "endCaptures": {
         "0": {
-          "name": "punctuation.braket.close.inform7"
+          "name": "punctuation.bracket.close.inform7"
         }
       },
       "patterns": [

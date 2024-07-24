@@ -42,7 +42,17 @@
     "comment": {
       "name": "comment.block.inform7",
       "begin": "\\[",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.bracket.open.inform7"
+        }
+      },
       "end": "\\]",
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.braket.close.inform7"
+        }
+      },
       "patterns": [
         {
           "include": "#nestedComment"

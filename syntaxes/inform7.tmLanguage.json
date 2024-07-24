@@ -71,7 +71,17 @@
     "text": {
       "name": "string.quoted.double.inform7",
       "begin": "\"",
-      "end": "\""
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.double.quote.begin.inform7"
+        }
+      },
+      "end": "\"",
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.double.quote.end.inform7"
+        }
+      }
     }
   }
 }

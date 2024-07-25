@@ -23,6 +23,9 @@
     },
     {
       "include": "#constant"
+    },
+    {
+      "include": "#class"
     }
   ],
   "repository": {
@@ -245,6 +248,18 @@
           "comment": "The NULL does show up in the library but it's not documented anywhere officially that I can see.",
           "name": "constant.language.inform6",
           "match": "\\b(false|nothing|NULL|true)\\b"
+        }
+      ]
+    },
+    "class": {
+      "patterns": [
+        {
+          "name": "support.class.library.inform6",
+          "match": "\\b(CompassDirection|Menu|Option|SwitchOption)\\b"
+        },
+        {
+          "name": "support.class.meta.inform6",
+          "match": "\\b(Class|Object|Routine|String)\\b"
         }
       ]
     }

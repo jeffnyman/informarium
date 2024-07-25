@@ -173,6 +173,9 @@
         },
         {
           "include": "#constant"
+        },
+        {
+          "include": "#variable"
         }
       ]
     },

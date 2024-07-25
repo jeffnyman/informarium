@@ -280,6 +280,10 @@
           "comment": "The possible values held by the action variable can be referred to using ## notation.",
           "name": "variable.other.actiontype.inform6",
           "match": "##[a-zA-Z]+\\b"
+        },
+        {
+          "name": "variable.language.grammartoken.inform6",
+          "match": "\\b(creature|END|held|multi|multiexcept|multiheld|multiinside|noun|number|special|topic)\\b"
         }
       ]
     }

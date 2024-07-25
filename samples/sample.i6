@@ -12,6 +12,7 @@
   answer = 42;
 
   print "Testing Inform 6^^";
+  print "Copyright @{a9}^";
   print "~Let's tell a story together!~, the author says.^";
   print "Today's number is ", 16136, ".^";
   print "Today's number is ", $$11111100001000, ".^";
@@ -21,4 +22,26 @@
   print "False means ", false, ".^";
 
   print "The answer is ", answer, ".^";
+
+  if (female_flag) string 14 "Skylar"; else string 14 "Jeff";
+  print "The person is @14.^";
+
+  print "A backslash comes out as: @@92.^";
+  print "A at sign comes out as: @@64.^";
+  print "A caret comes out as: @@94.^";
+  print "A tilde comes out as @@126.^";
+
+  ! @: put a diaeresis on the next letter: a e i o u A E I O or U`
+  ! @o put a ring (diacritic) on the next letter: a or A
+  ! @AE put a ligature in place
+  ! @c put a cedilla on the next letter: c or C
+  ! @' put an acute on the next letter: a e i o u y A E I O U or Y
+  ! @` put a grave on the next letter: a e i o u A E I O or U
+  ! @^ put a circumflex on the next letter: a e i o u A E I O or U
+  ! @~ put a tilde on the next letter: a n o A N or O
+  ! @\ put a slash on the next letter: o or O
+  print "Not to be na@:ive but, Les @oeuvres d'@AEsop en fran@ccais, mon @'el@`eve! Perhaps we retire to the @^atre. Or maybe we save that for ma@~nana. Or perhaps we partake of a sm@\orrebr@\od, which is an open-faced sandwich that is a traditional part of Danish cuisine.^";
+
+  ! @ss gives the German ß
+  print "Gau@ss first proved the Fundamental Theorem of Algebra.";
 ];

@@ -210,6 +210,11 @@
     "operator": {
       "patterns": [
         {
+          "comment": "Here --> is an array operator and -> is a byte operator.",
+          "name": "keyword.control.array.inform6",
+          "match": "-->|->"
+        },
+        {
           "name": "keyword.operator.arithmetic.inform6",
           "match": "\\+|-|\\*|/|%"
         },
@@ -240,6 +245,11 @@
         {
           "name": "keyword.operator.bitwise.inform6",
           "match": "&|\\||~"
+        },
+        {
+          "comment": "Here .& refers to a property array operator, .# refers to a property array size operator, and a . refers to a property operator. The :: refers to a superclass operator.",
+          "name": "keyword.operator.accessor.inform6",
+          "match": "\\.&|\\.#|\\.|::"
         }
       ]
     },

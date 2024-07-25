@@ -191,8 +191,9 @@
     "keyword": {
       "patterns": [
         {
+          "comment": "Note that static, buffer and table refers to forms of array but act as keywords.",
           "name": "keyword.control.inform6",
-          "match": "\\b(box|break|continue|default|do|else|font\\s+(on|off)|for|give|if|inversion|jump|new_line|objectloop|print|print_ret|quit|read|remove|restore|return|rfalse|rtrue|save|spaces|string|style\\s+(roman|bold|underline|reverse|fixed)|switch|until|while)\\b"
+          "match": "\\b(box|break|buffer|continue|default|do|else|font\\s+(on|off)|for|give|if|inversion|jump|new_line|objectloop|print|print_ret|quit|read|remove|restore|return|rfalse|rtrue|save|spaces|static|string|style\\s+(roman|bold|underline|reverse|fixed)|switch|table|until|while)\\b"
         },
         {
           "match": "\\b(move)\\s+([a-zA-Z_]\\w*)\\s+(to)\\b",

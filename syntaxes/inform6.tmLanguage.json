@@ -284,6 +284,10 @@
         {
           "name": "variable.language.grammartoken.inform6",
           "match": "\\b(creature|END|held|multi|multiexcept|multiheld|multiinside|noun|number|special|topic)\\b"
+        },
+        {
+          "name": "variable.language.glulx.inform6",
+          "match": "\\b(gg_arguments|gg_commandstr|gg_command_reading|gg_event|gg_mainwin|gg_quotewin|gg_savestr|gg_scriptfref|gg_scriptstr|gg_statuswin|gg_statuswin_cursize|gg_statuswin_size)\\b"
         }
       ]
     }

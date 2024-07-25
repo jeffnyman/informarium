@@ -311,6 +311,11 @@
           "match": "(?i)(\\b|#)(Abbreviate|Array|Attribute|Class|Constant|Default|Dictionary|End|Endif|Extend|Global|Ifdef|Iffalse|Ifndef|Ifnot|Iftrue|Include|Message(\\s+(error|fatalerror|warning))?|Object|Origsource|Property(\\s+additive)?|Release|Replace|Serial|Statusline\\s+(time|score)|System_file|Undef|Verb(\\s+meta)?|Zcharacter(\\s+table)?)\\b"
         },
         {
+          "comment": "Here first, last and only go with the Extend directive; alias goes with Property or Attribute.",
+          "name": "keyword.other.inform6",
+          "match": "\\b(alias|first|last|only)\\b"
+        },
+        {
           "comment": "Some directives are obsolete or exist for compiler maintenance only.",
           "name": "invalid.deprecated.inform6",
           "match": "(?i)(\\b|#)(Fake_action|Ifv3|Ifv5|Import|Link|Lowstring|Nearby|Stub|Switches|Trace|Version)\\b"

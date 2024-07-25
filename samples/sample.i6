@@ -44,4 +44,12 @@
 
   ! @ss gives the German ß
   print "Gau@ss first proved the Fundamental Theorem of Algebra.";
+
+  print "@{1}" ! (single-digit hexadecimal)
+  print "@{1F}" ! (two-digit hexadecimal)
+  print "@{1a2b}" ! (four-digit hexadecimal)
+  print "@{ABCDEF}" ! (six-digit uppercase hexadecimal)
+  print "@{2657}" ! White bishop chess symbol
+  print "@{274b}" ! heavy eight teardrop-spoked propeller asterisk
+  print "@{621}" ! the Arabic letter Hamza
 ];

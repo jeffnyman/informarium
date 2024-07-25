@@ -144,6 +144,9 @@
       "end": "(?=;)",
       "patterns": [
         {
+          "include": "#comment"
+        },
+        {
           "name": "variable.parameter.inform6",
           "match": "\\b[a-zA-Z_]\\w*\\b"
         }

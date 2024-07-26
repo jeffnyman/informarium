@@ -196,6 +196,11 @@
           "match": "\\b(box|break|buffer|continue|default|do|else|font\\s+(on|off)|for|give|if|inversion|jump|new_line|objectloop|print|print_ret|quit|read|remove|restore|return|rfalse|rtrue|save|spaces|static|string|style\\s+(roman|bold|underline|reverse|fixed)|switch|table|until|while)\\b"
         },
         {
+          "comment": "Technically these would be operators. Everything except private and class are condition operators. Here class, private and with are segments of an object definition. It's technically the case that has serves as both.",
+          "name": "keyword.operator.expression.inform6",
+          "match": "\\b(class|has|hasnt|in|notin|ofclass|or|private|provides|with)\\b"
+        },
+        {
           "match": "\\b(move)\\s+([a-zA-Z_]\\w*)\\s+(to)\\b",
           "captures": {
             "1": {
